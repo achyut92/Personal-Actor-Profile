@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/actionBarSize"
+    android:background="@color/colorBlack">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ImageButton
+        android:layout_width="115dp"
+        android:layout_height="match_parent"
+        android:id="@+id/title"
+        android:background="@drawable/paytouch"
+        android:layout_alignParentLeft="true"/>
+
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:id="@+id/search"
+        android:background="@drawable/mglass"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"/>
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:id="@+id/orderBy"
+        android:background="@drawable/order_by_selector"
+        android:layout_toStartOf="@id/search"
+        android:layout_toLeftOf="@id/search"/>
+    </RelativeLayout>
+</android.support.v7.widget.Toolbar>

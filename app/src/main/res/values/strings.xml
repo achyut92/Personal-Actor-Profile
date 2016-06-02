@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Paytouch</string>
+    <string name="byName">Order by <b>name</b></string>
+    <string name="byPopularity">Order by <b>popularity</b></string>
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="search">Search</string>
+</resources>
